@@ -1,0 +1,9 @@
+include README.rst
+include CONTRIBUTORS
+include LICENSE
+recursive-include xtags/locale *
+recursive-include xtags/migrations *
+recursive-include xtags/static *
+recursive-include xtags/templates *
+recursive-include xtags/templatetags *
+recursive-include xtags/views *
