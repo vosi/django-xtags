@@ -22,12 +22,12 @@ TODO
 COMPATIBILITY
 -------------
 
-Django >= 1.3
-jQuery
-jQuery.UI
-South (why is it still not in django.core?)
+* Django >= 1.3
+* jQuery
+* jQuery.UI
+* South (why is it still not in django.core?)
 
 CHANGELOG
 ---------
 
-14.12.11 Initial alpha version
+* 14.12.11 Initial alpha version
