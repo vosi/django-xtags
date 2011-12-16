@@ -1,7 +1,7 @@
 from django.contrib.contenttypes.generic import GenericRelation
 from django.contrib.contenttypes.models import ContentType
 from django.db.models.related import RelatedObject
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 from django.db import models
 from django.db.models.fields.related import RelatedField, ManyToManyRel, add_lazy_relation
 from xtags.forms import TagField

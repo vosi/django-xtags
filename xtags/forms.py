@@ -1,5 +1,5 @@
 from django import forms
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 from xtags import settings
 from xtags.models import Tag
 from xtags.utils import parse_tags

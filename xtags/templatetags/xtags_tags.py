@@ -1,6 +1,6 @@
 from django.db.models import get_model
 from django.template import Library, Node, TemplateSyntaxError
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 
 from xtags.models import Tag
 from xtags.utils import LINEAR, LOGARITHMIC

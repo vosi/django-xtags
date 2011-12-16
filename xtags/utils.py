@@ -2,7 +2,7 @@ from functools import wraps
 import math
 import types
 from django.utils.encoding import force_unicode
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 
 
 LOGARITHMIC, LINEAR = 1, 2

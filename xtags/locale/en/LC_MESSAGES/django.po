@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-15 11:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:12
+msgid "Tagged Items Count"
+msgstr ""
+
+#: admin.py:38
+msgid "Merge selected tags"
+msgstr ""
+
+#: forms.py:16
+msgid "Multiple tags were given."
+msgstr ""
+
+#: forms.py:19
+#, python-format
+msgid "A tag may be no more than %s characters long."
+msgstr ""
+
+#: forms.py:30
+msgid "Please provide a comma-separated list of tags."
+msgstr ""
+
+#: forms.py:35
+#, python-format
+msgid "Each tag may be no more than %(length)s characters long."
+msgstr ""
+
+#: managers.py:23 managers.py:79 models.py:148
+msgid "Tags"
+msgstr ""
+
+#: managers.py:24 managers.py:80
+msgid "A comma-separated list of tags."
+msgstr ""
+
+#: models.py:140
+msgid "Name"
+msgstr ""
+
+#: models.py:141
+msgid "Promote tag"
+msgstr ""
+
+#: models.py:147
+msgid "Tag"
+msgstr ""
+
+#: models.py:159
+#, python-format
+msgid "%(object)s tagged with %(tag)s"
+msgstr ""
+
+#: models.py:206
+msgid "Object id"
+msgstr ""
+
+#: models.py:209
+msgid "Content type"
+msgstr ""
+
+#: models.py:247
+msgid "Tagged Item"
+msgstr ""
+
+#: models.py:248
+msgid "Tagged Items"
+msgstr ""
+
+#: utils.py:182
+#, python-format
+msgid "Invalid distribution algorithm specified: %(alg)s."
+msgstr ""
+
+#: templatetags/xtags_tags.py:20
+#, python-format
+msgid "tag_cloud_for_model tag was given an invalid model: %(model)s"
+msgstr ""
+
+#: templatetags/xtags_tags.py:64
+#, python-format
+msgid "%s tag requires either three or between five and seven arguments"
+msgstr ""
+
+#: templatetags/xtags_tags.py:66
+#, python-format
+msgid "second argument to %s tag must be 'as'"
+msgstr ""
+
+#: templatetags/xtags_tags.py:70
+#, python-format
+msgid "if given, fourth argument to %s tag must be 'with'"
+msgstr ""
+
+#: templatetags/xtags_tags.py:78
+#, python-format
+msgid "%(tag)s tag's '%(option)s' option was not a valid integer: '%(value)s'"
+msgstr ""
+
+#: templatetags/xtags_tags.py:87
+#, python-format
+msgid "%(tag)s tag's '%(option)s' option was not a valid choice: '%(value)s'"
+msgstr ""
+
+#: templatetags/xtags_tags.py:93
+#, python-format
+msgid "%(tag)s tag was given an invalid option: '%(option)s'"
+msgstr ""
+
+#: templatetags/xtags_tags.py:98
+#, python-format
+msgid "%(tag)s tag was given a badly formatted option: '%(option)s'"
+msgstr ""

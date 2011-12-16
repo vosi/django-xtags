@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-15 11:02+0200\n"
+"PO-Revision-Date: 2011-12-15 11:14\n"
+"Last-Translator: Volodymyr Tartynskyi <me@vosi.kiev.ua>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Translated-Using: django-rosetta 0.6.3\n"
+
+#: admin.py:12
+msgid "Tagged Items Count"
+msgstr "Количество протегированных объектов"
+
+#: admin.py:38
+msgid "Merge selected tags"
+msgstr "Объединить выбранные теги"
+
+#: forms.py:16
+msgid "Multiple tags were given."
+msgstr "Введено несколько тегов."
+
+#: forms.py:19
+#, python-format
+msgid "A tag may be no more than %s characters long."
+msgstr "Тег не может быть длиннее %s символов."
+
+#: forms.py:30
+msgid "Please provide a comma-separated list of tags."
+msgstr "Введите теги, отделённые запятой."
+
+#: forms.py:35
+#, python-format
+msgid "Each tag may be no more than %(length)s characters long."
+msgstr "Каждый тег не может быть длиннее %(length)s символов."
+
+#: managers.py:23 managers.py:79 models.py:148
+msgid "Tags"
+msgstr "Теги"
+
+#: managers.py:24 managers.py:80
+msgid "A comma-separated list of tags."
+msgstr "Список тегов, отделённые запятой."
+
+#: models.py:140
+msgid "Name"
+msgstr "Имя"
+
+#: models.py:141
+msgid "Promote tag"
+msgstr "Выделить тег"
+
+#: models.py:147
+msgid "Tag"
+msgstr "Тег"
+
+#: models.py:159
+#, python-format
+msgid "%(object)s tagged with %(tag)s"
+msgstr "%(object)s помечено тегом %(tag)s"
+
+#: models.py:206
+msgid "Object id"
+msgstr "ИД объекта"
+
+#: models.py:209
+msgid "Content type"
+msgstr "Тип объекта"
+
+#: models.py:247
+msgid "Tagged Item"
+msgstr "Протегированный объект"
+
+#: models.py:248
+msgid "Tagged Items"
+msgstr "Протегированные объекты"
+
+#: utils.py:182
+#, python-format
+msgid "Invalid distribution algorithm specified: %(alg)s."
+msgstr "Invalid distribution algorithm specified: %(alg)s."
+
+#: templatetags/xtags_tags.py:20
+#, python-format
+msgid "tag_cloud_for_model tag was given an invalid model: %(model)s"
+msgstr "tag_cloud_for_model tag was given an invalid model: %(model)s"
+
+#: templatetags/xtags_tags.py:64
+#, python-format
+msgid "%s tag requires either three or between five and seven arguments"
+msgstr "%s tag requires either three or between five and seven arguments"
+
+#: templatetags/xtags_tags.py:66
+#, python-format
+msgid "second argument to %s tag must be 'as'"
+msgstr "second argument to %s tag must be 'as'"
+
+#: templatetags/xtags_tags.py:70
+#, python-format
+msgid "if given, fourth argument to %s tag must be 'with'"
+msgstr "if given, fourth argument to %s tag must be 'with'"
+
+#: templatetags/xtags_tags.py:78
+#, python-format
+msgid "%(tag)s tag's '%(option)s' option was not a valid integer: '%(value)s'"
+msgstr "%(tag)s tag's '%(option)s' option was not a valid integer: '%(value)s'"
+
+#: templatetags/xtags_tags.py:87
+#, python-format
+msgid "%(tag)s tag's '%(option)s' option was not a valid choice: '%(value)s'"
+msgstr "%(tag)s tag's '%(option)s' option was not a valid choice: '%(value)s'"
+
+#: templatetags/xtags_tags.py:93
+#, python-format
+msgid "%(tag)s tag was given an invalid option: '%(option)s'"
+msgstr "%(tag)s tag was given an invalid option: '%(option)s'"
+
+#: templatetags/xtags_tags.py:98
+#, python-format
+msgid "%(tag)s tag was given a badly formatted option: '%(option)s'"
+msgstr "%(tag)s tag was given a badly formatted option: '%(option)s'"
